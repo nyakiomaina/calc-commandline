@@ -80,7 +80,7 @@ fn main () {
     loop {
         let mut buffer = String::new();
 
-        print!("Enter and expression (or 'exit' to quit): ");
+        print!("Enter an expression (or 'exit' to quit): ");
         io::stdout().flush().unwrap();
         io::stdin().read_line(&mut buffer).unwrap();
 
